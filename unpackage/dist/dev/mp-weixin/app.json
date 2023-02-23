@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feeds/feeds",
+    "pages/me/me",
+    "pages/webview/webview"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "feedinfo",
+        "newinfo",
+        "share"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社区论坛",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0050FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar-icons/home.png",
+        "selectedIconPath": "static/tabbar-icons/home_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/feeds/feeds",
+        "iconPath": "static/tabbar-icons/xingqiu.png",
+        "selectedIconPath": "static/tabbar-icons/xingqiu_1.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabbar-icons/mine.png",
+        "selectedIconPath": "static/tabbar-icons/mine_1.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {
+    "login": "/components/login/login",
+    "add": "/components/add"
+  }
+}

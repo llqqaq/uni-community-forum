@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('~@/static/fonts/iconfont.ttf?t=1676945857932') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-set:before {
+  content: "\e6ae";
+}
+
+.icon-message:before {
+  content: "\e610";
+}
+

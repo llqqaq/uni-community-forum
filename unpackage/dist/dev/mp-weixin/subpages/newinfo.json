@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "helang-blur": "/components/helang-blur/helang-blur",
+    "u-parse": "/uni_modules/uview-ui/components/u-parse/u-parse",
+    "login": "/components/login/login",
+    "comment": "/components/comment"
+  }
+}

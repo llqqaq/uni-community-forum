@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "动态中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "login": "/components/login/login"
+  }
+}

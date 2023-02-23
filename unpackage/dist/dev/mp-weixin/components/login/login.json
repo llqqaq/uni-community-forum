@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "login-form": "/components/login/components/login-form"
+  },
+  "component": true
+}

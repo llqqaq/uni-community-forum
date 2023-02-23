@@ -1,0 +1,22 @@
+// 组件内设置穿透没生效（页面级别就生效）
+ .login-form {
+	 .u-input__content__field-wrapper__field{
+	 	font-size: 24rpx !important;
+	 }
+	 .u-form-item__body__left__content__icon {
+		 margin-right: 0 !important;
+	 }
+	 .u-line {
+		 border-color: #f5f6f9 !important;
+	 }
+	 .u-form-item__body__left__content__label {
+		 font-size: 24rpx !important;
+	 }
+	 .u-form-item__body__left__content__required {
+		 font-size: 25rpx !important;
+		 top: 1rpx !important;
+	 }
+	 .u-subsection--button view {
+		 margin-right: 10rpx;
+	 }
+ }

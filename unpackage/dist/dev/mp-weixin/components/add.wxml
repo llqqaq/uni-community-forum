@@ -1,0 +1,1 @@
+<block wx:if="{{token}}"><view class="add-icon data-v-64c6f736"><image src="/static/icon/photograph.png" mode="widthFix" data-event-opts="{{[['tap',[['toShare',['$event']]]]]}}" bindtap="__e" class="data-v-64c6f736"></image></view></block>

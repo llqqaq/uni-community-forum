@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
+    "u-badge": "/uni_modules/uview-ui/components/u-badge/u-badge",
+    "login": "/components/login/login"
+  }
+}

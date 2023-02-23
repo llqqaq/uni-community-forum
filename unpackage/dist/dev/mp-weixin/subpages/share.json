@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "动态分享",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u--textarea": "/uni_modules/uview-ui/components/u--textarea/u--textarea",
+    "u-upload": "/uni_modules/uview-ui/components/u-upload/u-upload",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "login": "/components/login/login"
+  }
+}

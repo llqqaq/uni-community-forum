@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/feeds/feeds",
+			"style": {
+				"navigationBarTitleText": "动态中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+		"root": "subpages",
+		"pages": [{
+				"path": "feedinfo",
+				"style": {
+					"navigationBarTitleText": "动态详情",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "newinfo",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "share",
+				"style": {
+					"navigationBarTitleText": "动态分享",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "black"
+				}
+			}
+		]
+	}],
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#0050FF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar-icons/home.png",
+				"selectedIconPath": "static/tabbar-icons/home_1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/feeds/feeds",
+				"iconPath": "static/tabbar-icons/xingqiu.png",
+				"selectedIconPath": "static/tabbar-icons/xingqiu_1.png",
+				"text": "动态"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/tabbar-icons/mine.png",
+				"selectedIconPath": "static/tabbar-icons/mine_1.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "社区论坛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 100
+	},
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"insetLoader": {
+		//配置
+		"config": {
+			//将需要引入的组件名起了个confirm的名字在下面label中使用
+			//右侧"<test ref='confirm' />"为需要插入的组件标签
+			"login": "<login ref='login' />"
+		},
+		// 全局配置  
+		//需要挂在的组件名
+		"label": ["login"],
+		//根元素的标签类型 也就是插入到页面哪个根元素下默认为div 但是uniapp中需要写为view
+		"rootEle": "view"
+	}
+}
